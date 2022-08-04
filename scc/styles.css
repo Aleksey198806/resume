@@ -1,0 +1,31 @@
+.conteiner {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+.tramb {
+  width: 256px;
+  height: 256px;
+  background-color: brown;
+  animation: trambscale 500ms linear;
+}
+.text {
+  color: blue;
+}
+.tramb::after {
+  content: "";
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+  width: 236px;
+  height: 236px;
+  border-color: blueviolet;
+  animation: afterborder 2000ms linear ;
+}
+@keyframes ::after border{
+    0%
+}
