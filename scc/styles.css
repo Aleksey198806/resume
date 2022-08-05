@@ -1,31 +1,80 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
 .conteiner {
-  width: 1170px;
-  margin: auto;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+h1 h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+/*----------Шапка-----------*/
+.header {
+  background-color: #fffff;
+  border-bottom: 1px solid #ececec;
+}
+
+.box {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 32px;
+  align-items: center;
 }
-.tramb {
-  width: 256px;
-  height: 256px;
-  background-color: brown;
-  animation: trambscale 500ms linear;
+.header-list {
+  display: flex;
+  gap: 37px;
 }
-.text {
-  color: blue;
+
+.header-link {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.53;
+  color: #0000000;
 }
-.tramb::after {
-  content: "";
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50% -50%);
-  width: 236px;
-  height: 236px;
-  border-color: blueviolet;
-  animation: afterborder 2000ms linear ;
+
+/*----------Герой-----------*/
+
+.overley {
+  max-width: 1440px;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/rectangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-@keyframes ::after border{
-    0%
+
+.hero-tittle {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 144px;
+
+  color: #ffffff;
 }
