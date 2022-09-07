@@ -1,0 +1,42 @@
+.section {
+  padding: 60px 0;
+
+  @media screen and(min-width: 1200px) {
+    padding: 94px 0;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
