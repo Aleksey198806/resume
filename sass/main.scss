@@ -1,2 +1,21 @@
-@import "./container";
-@import "./base/body";
+// * Utils
+@import "./utils/base";
+@import "./utils/reset";
+@import "./utils/centered";
+@import "./utils/variables";
+@import "./utils/visualy-hidden";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/overlay";
+@import "./components/studio/benefits";
+@import "./components/studio/examples";
+@import "./components/studio/team";
+@import "./components/studio/client";
+@import "./components/footer";
+@import "./components/portfolio/card";
+@import "./components/portfolio/portfoliobtn";
+@import "./components/studio/backdrop";
+@import "./components/studio/modal";
+@import "./components/studio/form";
+@import "./components/studio/form-checkbox";
+@import "./components/studio/order-form";

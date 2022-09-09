@@ -1,0 +1,26 @@
+.order-form-button-cube {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-form-button {
+  padding: 10px 52px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--first-font-btn-colo);
+  background-color: var(--first-bcg-btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  transition: background-color var(--transition-main);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: var(--sec-bcg-btn-color);
+  }
+}

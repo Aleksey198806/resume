@@ -1,0 +1,28 @@
+.examples {
+  background-color: var(--first-bcg-color);
+  text-align: center;
+}
+.examples__list {
+  display: flex;
+  gap: $cardSetGap;
+}
+.examples__item {
+  position: relative;
+}
+.examples__text {
+  display: flex;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  bottom: 0px;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
